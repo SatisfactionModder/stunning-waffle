@@ -1,6 +1,6 @@
 async function fetchScript() {
     try {
-        let response = await fetch('https://raw.githubusercontent.com/alexlostorto/sparx/main/release.json');
+        let response = await fetch("https://raw.githubusercontent.com/SatisfactionModder/stunning-waffle/main/main.js");
         let json = await response.json();
 
         let js = document.createElement("script");
